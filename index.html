@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodventure</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Foodventure</h1>
+        </div>
+    </header>
+    <main>
+        <!-- Form Pencarian -->
+        <section class="search-section">
+            <input type="text" id="search-input" placeholder="Cari resep...">
+            <button id="search-btn">Cari</button>
+        </section>
+        
+        <!-- Rekomendasi Kategori -->
+        <section class="rekomendasi">
+            <h2>Rekomendasi Resep</h2>
+            <div class="kategori">
+                <button onclick="location.href='sarapan.html'">Sarapan</button>
+            </div>
+            <div class="kategori">
+                <button onclick="location.href='camilan.html'">Camilan</button>
+            </div>
+            <div class="kategori">
+                <button onclick="location.href='makan-siang.html'">Makan Siang</button>
+            </div>
+            <div class="kategori">
+                <button onclick="location.href='makan-malam.html'">Makan Malam</button>
+            </div>
+        </section>
+
+        <!-- Di dalam <main> pada index.html -->
+        <section id="search-results">
+        </section>
+                
+    </main>
+    <footer>
+        <p>&copy; 2024 Foodventure. Semua hak cipta dilindungi.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
